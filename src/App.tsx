@@ -1,6 +1,7 @@
 import "./App.css";
 
 import * as React from "react";
+import HelloGoodbye from "@adam-deps/c";
 
 import useConfig from "./components/useConfig";
 import logo from "./logo.svg";
@@ -17,8 +18,9 @@ export default function App() {
         <h1 className="App-title">Welcome to {config.app.TITLE}</h1>
       </header>
       <p className="App-intro">
-        To get started, edit <code>src/browser/App.jsx</code> and save to reload.
+        To get started, edit yo <code>src/browser/App.jsx</code> and save to reload.
       </p>
+      <HelloGoodbye />
     </div>
   );
 }
